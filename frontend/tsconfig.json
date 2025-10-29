@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Modern JS features
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Browser APIs + latest JS
+    "allowJs": true,                          // Allow JS files if needed
+    "skipLibCheck": true,                      // Skip type checks for libraries
+    "esModuleInterop": true,                   // Enables default imports from CommonJS modules
+    "allowSyntheticDefaultImports": true,
+    "strict": true,                            // Enable strict type checking
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
