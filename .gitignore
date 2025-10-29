@@ -16,3 +16,7 @@ backend/dist/
 # OS files
 .DS_Store
 Thumbs.db
+# Ignore environment variable files
+.env
+backend/.env
+frontend/.env
